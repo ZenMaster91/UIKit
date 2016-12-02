@@ -12,7 +12,7 @@ import java.awt.Color;
  * @since 0.1
  * @formatter Oviedo Computing Community
  */
-public class UIColor extends Color {
+public final class UIColor extends Color {
 
 	private static final long serialVersionUID = 6222522995411977707L;
 

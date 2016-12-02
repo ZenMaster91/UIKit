@@ -14,7 +14,7 @@ import java.awt.Font;
  * @since 0.1
  * @formatter Oviedo Computing Community
  */
-public class UIFont extends Font {
+public final class UIFont extends Font {
 
 	private static final long serialVersionUID = -1704496265327259420L;
 	
