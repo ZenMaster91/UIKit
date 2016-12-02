@@ -65,7 +65,7 @@ public class UIColor extends Color {
 	}
 
 	public static UIColor black() {
-		return new UIColor(255,255,255);
+		return new UIColor(0,0,0);
 	}
 
 	public static UIColor blue() {
