@@ -64,6 +64,9 @@ public final class UIColor extends Color {
 				(float) (alpha));
 	}
 
+	/**
+	 * @return A color object containing a pure black values.
+	 */
 	public static UIColor black() {
 		return new UIColor(0,0,0);
 	}
