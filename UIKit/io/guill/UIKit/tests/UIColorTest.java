@@ -14,4 +14,11 @@ public class UIColorTest {
 		assertEquals(255, new UIColor(1,1,1).getAlpha());
 	}
 
+	@Test
+	public void exceptionHandelingTest() {
+		try {
+			UIColor.blue();
+			fail();
+		} catch(UnsupportedOperationException e) { }
+	}
 }

@@ -69,66 +69,66 @@ public class UIColor extends Color {
 	}
 
 	public static UIColor blue() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 
 	public static UIColor brown() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 
 	public static UIColor clear() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 
 	public static UIColor cyan() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 
 	public static UIColor darkGray() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 
 	public static UIColor darkText() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 
 	public static UIColor gray() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 
 	public static UIColor green() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 
 	public static UIColor lightGray() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 
 	public static UIColor lightText() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 	
 	public static UIColor magenta() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 	
 	public static UIColor orange() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 	
 	public static UIColor purple() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 	
 	public static UIColor red() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 	
 	public static UIColor white() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 	
 	public static UIColor yellow() {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 }
