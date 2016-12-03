@@ -17,7 +17,7 @@ public class UIColorTest {
 	@Test
 	public void exceptionHandelingTest() {
 		try {
-			UIColor.blue();
+			UIColor.darkGray();
 			fail();
 		} catch(UnsupportedOperationException e) { }
 	}

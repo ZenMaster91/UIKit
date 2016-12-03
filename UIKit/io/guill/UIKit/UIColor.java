@@ -71,8 +71,11 @@ public final class UIColor extends Color {
 		return new UIColor(0,0,0);
 	}
 
+	/**
+	 * @return A color object containing the blue values.
+	 */
 	public static UIColor blue() {
-		throw new UnsupportedOperationException();
+		return new UIColor(0,112,201);
 	}
 
 	public static UIColor brown() {
