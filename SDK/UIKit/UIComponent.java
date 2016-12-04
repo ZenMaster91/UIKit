@@ -26,5 +26,11 @@ public interface UIComponent {
 	 * @return The background color of the component.
 	 */
 	public UIColor backGroundColor();
+	
+	/**
+	 * Changes the backGroundColor of the element
+	 * @param color
+	 */
+	public void backGroundColor(UIColor color);
 
 }

@@ -22,6 +22,11 @@ public class UIScreenTest {
 								.getLocalGraphicsEnvironment()
 								.getScreenDevices()[0].getIDstring());
 		System.out.println(UIScreen.size(monitor).getWidth() + " x " + UIScreen.size(monitor).getHeight());
+		
+		for(UIScreen screen : UIScreen.screens()) {
+			System.out.println(screen.size().getWidth() + " x " + screen.size().getHeight());
+			
+		}
 		System.out.println(UIScreen.resolution());
 	}
 
