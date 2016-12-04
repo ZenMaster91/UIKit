@@ -1,9 +1,9 @@
-package io.guill.UIKit.tests;
+package UIKit.tests;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-import io.guill.UIKit.UIColor;
+import UIKit.UIColor;
 
 public class UIColorTest {
 

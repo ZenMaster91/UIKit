@@ -1,4 +1,4 @@
-package io.guill.UIKit;
+package UIKit;
 
 import java.awt.Dimension;
 import java.awt.GraphicsDevice;
@@ -17,17 +17,25 @@ import java.lang.reflect.Field;
 public final class UIScreen {
 
 	public UIScreenMode currentMode;
-
-	public UIScreen() {}
-
-	public UIScreen(UIScreenMode currentMode) {
-		this.currentMode = currentMode;
+	private UIDevice monitor;
+	
+	public UIScreen(UIDevice monitor) {
+		this.monitor = monitor;
 	}
 
-	public static Dimension size() {
-		UIDevice enviroment = new UIDevice();
-		return new Dimension(enviroment.getDisplayMode().getWidth(), enviroment.getDisplayMode()
-				.getHeight());
+	public UIScreen(UIScreenMode currentMode, UIDevice monitor) {
+		this.currentMode = currentMode;
+		this.monitor = monitor;
+	}
+	
+	public Dimension size() {
+		return new Dimension(monitor.getDisplayMode().getWidth(), monitor
+				.getDisplayMode().getHeight());
+	}
+
+	public static Dimension size(UIDevice monitor) {
+		return new Dimension(monitor.getDisplayMode().getWidth(), monitor
+				.getDisplayMode().getHeight());
 	}
 
 	public static int resolution() {
@@ -43,7 +51,8 @@ public final class UIScreen {
 					screenDevices[i].getDisplayMode().getWidth(),
 					screenDevices[i].getDisplayMode().getHeight()),
 					screenDevices[i].getDisplayMode().getBitDepth(),
-					screenDevices[i].getDisplayMode().getRefreshRate()));
+					screenDevices[i].getDisplayMode().getRefreshRate()),
+					UIDevice.interpolate(screenDevices[i]));
 		}
 		return screens;
 	}

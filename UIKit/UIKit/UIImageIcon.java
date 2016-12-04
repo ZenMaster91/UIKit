@@ -1,4 +1,4 @@
-package io.guill.UIKit;
+package UIKit;
 
 import javax.swing.ImageIcon;
 
