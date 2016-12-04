@@ -3,10 +3,13 @@ package UIKit.tests;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.EventQueue;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseEvent;
 
 import javax.swing.JFrame;
 import javax.swing.border.EmptyBorder;
 
+import AppKit.NSResponder;
 import UIKit.UILabel;
 import UIKit.UIView;
 import UIKit.UIWindow;
@@ -46,6 +49,24 @@ public class UIViewTest extends UIWindow {
 		contentPane.setBackground(Color.BLACK);
 		contentPane.alpha(0.8);
 		setContentPane(contentPane);
+		addKeyListener(new NSResponder() {
+			@Override
+			public void keyPressed(KeyEvent e) {
+				// TODO Auto-generated method stub
+				super.keyPressed(e);
+				if(e.getKeyChar() == 'p')
+					System.out.println("p");
+			}
+		});
+		
+		addMouseListener(new NSResponder() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				// TODO Auto-generated method stub
+				super.mousePressed(e);
+				System.out.println("pr");
+			}
+		});
 		
 		JLabel lblHola = new UILabel("hola");
 		contentPane.add(lblHola);
