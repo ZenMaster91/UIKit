@@ -39,7 +39,7 @@ public class NSFile extends File {
 	/**
 	 * @return The filename and the extension.
 	 */
-	public String fileName() {
+	public String name() {
 		return this.fileName;
 	}
 

@@ -16,7 +16,7 @@ public class DBMySQL extends NSDatabase {
 			e.printStackTrace();
 		}
 	}
-
+	
 	@Override
 	public Connection connect(String protocol, String vendor, String driver, String server, String port,
 			String databaseName, String user, String password) throws SQLException {

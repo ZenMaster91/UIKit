@@ -56,7 +56,7 @@ public final class WKQuery {
 		BufferedReader br = null;
 		StringBuilder sb = null;
 		try {
-			br = new BufferedReader(new FileReader(sqlFile.completePath()));
+			br = new BufferedReader(new FileReader(sqlFile.path()));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}

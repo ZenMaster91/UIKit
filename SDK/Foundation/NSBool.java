@@ -9,6 +9,7 @@ package Foundation;
  * @formatter Oviedo Computing Community
  */
 public class NSBool implements java.io.Serializable, Comparable<NSBool> {
+
 	/**
 	 * The {@code Boolean} object corresponding to the primitive value
 	 * {@code true}.
@@ -46,9 +47,9 @@ public class NSBool implements java.io.Serializable, Comparable<NSBool> {
 	public NSBool(boolean value) {
 		this.value = value;
 	}
-	
+
 	public NSBool(int value) {
-		if(value >= 1)
+		if (value >= 1)
 			this.value = true;
 		else
 			this.value = false;
