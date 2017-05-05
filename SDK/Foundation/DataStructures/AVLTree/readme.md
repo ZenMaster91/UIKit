@@ -8,6 +8,7 @@ AVL trees are often compared with red–black trees because both support the sam
 > **Note:** An AVL Tree its compose by nodes, here we will refer to them as AVL Node.
   
 ### AVL Node
+#### Overview
 The AVL Node is the container that will store its value, a reference to the left and right children and its height. For convinience we will make our node generic, but comparable to be able to compare the nodes between them.
   
 ```java
