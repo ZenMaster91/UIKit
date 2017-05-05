@@ -8,7 +8,7 @@ AVL trees are often compared with red–black trees because both support the sam
 > **Note:** An AVL Tree its compose by nodes, here we will refer to them as AVL Node.
   
 ### AVL Node
-The AVL Node is the container that will store its value, a reference to the left and right childs and its height. For convinience we will make our node generic, but comparable to be able to compare the nodes between them.
+The AVL Node is the container that will store its value, a reference to the left and right children and its height. For convinience we will make our node generic, but comparable to be able to compare the nodes between them.
   
 ```java
  public class AVLNode<T extends Comparable<T>> {
@@ -27,4 +27,39 @@ The AVL Node is the container that will store its value, a reference to the left
     
     ...
  }
+```
+#### Accesing and Setting values
+The implementation of the AVL Node uses simple terminology sintax to name the methods. So if you want to set or get its properties can be done like this:
+  
+```java
+    // A single node with no childs.
+    AVLNode<int> single = new AVLNode<int>(1);
+    
+    // A node that will be left children.
+    AVLNode<int> childLeft = new AVLNode<int>(3);
+    
+    // A node that will be right children.
+    AVLNode<int> childRight = new AVLNode<int>(5);
+    
+    // A node defined as a parent with both children.
+    AVLNode<int> parent = new AVLNode<int>(4, childLeft, childRight);
+    
+    // To access to the element stored on single.
+    single.element();
+    
+    // To change or set the value of the element stored at single.
+    single.element(2);
+    
+    // To get the left child of parent.
+    parent.left();
+    
+    // To set or change the left child of parent.
+    parent.left(new AVLNode<int>(2));
+    
+    // Same for left...
+    
+    // To get the height of any node.
+    System.out.println(parent.height());
+    // Will print 1;
+    
 ```
