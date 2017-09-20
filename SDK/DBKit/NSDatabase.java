@@ -6,8 +6,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Protocol for every Database.
@@ -33,7 +31,7 @@ public abstract class NSDatabase {
 	protected Statement stat = null;
 	protected PreparedStatement psQuery = null;
 	protected CallableStatement cs = null;
-	protected ResultSet rs = null;
+	protected NSResultSet rs = null;
 
 	protected NSDatabase() { }
 
@@ -163,7 +161,7 @@ public abstract class NSDatabase {
 	 */
 	public ResultSet execute(String sql) throws SQLException {
 		this.stat = this.conn.createStatement();
-		this.rs = this.stat.executeQuery(sql);
+		this.rs = new NSResultSet(stat.executeQuery(sql));
 		return result();
 	}
 
@@ -183,7 +181,7 @@ public abstract class NSDatabase {
 		for (int i = 0; i < parameters.length; i++) {
 			this.psQuery.setObject(i + 1, parameters[i]);
 		}
-		this.rs = this.psQuery.executeQuery();
+		this.rs = new NSResultSet(this.psQuery.executeQuery());
 		return result();
 	}
 
@@ -212,7 +210,7 @@ public abstract class NSDatabase {
 	 * @return the result set object.
 	 */
 	public ResultSet result() {
-		return this.rs;
+		return this.rs.self();
 	}
 
 	/**
@@ -224,13 +222,7 @@ public abstract class NSDatabase {
 	 * @throws SQLException
 	 */
 	public int resultSize() throws SQLException {
-		int aux = 0;
-		while (this.rs != null) {
-			this.rs.beforeFirst();
-			this.rs.last();
-			aux = this.rs.getRow();
-		}
-		return aux;
+		return this.rs.size();
 	}
 
 	/**
@@ -240,22 +232,6 @@ public abstract class NSDatabase {
 	 * @throws SQLException
 	 */
 	public Object[][] resultToArray() throws SQLException {
-		List<Object[]> res = new ArrayList<Object[]>();
-		int columns = this.resultSize();
-		Object[] register;
-		while (rs.next()) {
-			register = new Object[columns];
-			for (int i = 0; i < columns; i++) {
-				register[i] = rs.getObject(i + 1);
-				res.add(register);
-			}
-		}
-		Object[][] toReturn = new Object[res.size()][columns];
-		for (int i = 0; i < res.size(); i++) {
-			for (int j = 0; j < columns; j++) {
-				toReturn[i][j] = res.get(i)[j];
-			}
-		}
-		return toReturn;
+		return this.rs.asArray();
 	}
 }
