@@ -16,5 +16,5 @@ public interface Validable {
 	 * 
 	 * @return  Returns true if validation succeed, false otherwise.
 	 */
-	public boolean validate();
+	public boolean isValid();
 }
