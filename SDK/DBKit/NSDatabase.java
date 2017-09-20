@@ -26,8 +26,8 @@ public abstract class NSDatabase {
 	public static final String DEFAULT_PORT = "1521";
 	public static final String DEFAULT_DATABASE = "DESA";
 
-	public static final String DEFAULT_USER = "UO236856";
-	public static final String DEFAULT_PASS = "UO236856";
+	public static final String DEFAULT_USER = ""; // Enter here the user
+	public static final String DEFAULT_PASS = ""; // Enter here the password
 
 	protected Connection conn = null;
 	protected Statement stat = null;

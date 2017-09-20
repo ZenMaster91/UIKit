@@ -1,4 +1,4 @@
-# Foundation > Datastructures
+# Foundation > Collections
 The DataStructures package includes all the types and structures that represent the core of the API. Example of that are the AVLTrees, the HashTables, Graphs and the Priority Queues.
    
 ## AVL Tree
