@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.Collections.LI4_EvalTest2" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-30T14:44:35" hostname="MacBook-Pro-de-Guillermo.local" time="0.66">
-  <properties/>
-  <testcase name="test_NumberOfElementsGreaterThan" classname="test.Collections.LI4_EvalTest2" time="0.66"/>
-  <system-out><![CDATA[Adding nodes.
-Checking nodes.
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

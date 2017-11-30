@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.Collections.BinaryHeapCarlosTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-30T14:44:29" hostname="MacBook-Pro-de-Guillermo.local" time="0.001">
-  <properties/>
-  <testcase name="test_sort_order_A" classname="test.Collections.BinaryHeapCarlosTest" time="0.0"/>
-  <testcase name="test_sort_order_B" classname="test.Collections.BinaryHeapCarlosTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.SecRandomRefTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-30T14:44:39" hostname="MacBook-Pro-de-Guillermo.local" time="0.89">
-  <properties/>
-  <testcase name="hashTest" classname="test.SecRandomRefTest" time="0.532"/>
-  <testcase name="authenticateTest" classname="test.SecRandomRefTest" time="0.358"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
