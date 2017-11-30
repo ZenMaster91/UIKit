@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.Collections.AVLTreeMartinTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-11-30T14:44:29" hostname="MacBook-Pro-de-Guillermo.local" time="7.299">
+  <properties/>
+  <testcase name="addTest" classname="test.Collections.AVLTreeMartinTest" time="0.007"/>
+  <testcase name="searchTest" classname="test.Collections.AVLTreeMartinTest" time="0.001"/>
+  <testcase name="addTest" classname="test.Collections.AVLTreeMartinTest" time="0.0"/>
+  <testcase name="searchTest" classname="test.Collections.AVLTreeMartinTest" time="0.001"/>
+  <testcase name="addTest" classname="test.Collections.AVLTreeMartinTest" time="0.001"/>
+  <testcase name="searchTest" classname="test.Collections.AVLTreeMartinTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

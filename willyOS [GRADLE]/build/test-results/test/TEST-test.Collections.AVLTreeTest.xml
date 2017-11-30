@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.Collections.AVLTreeTest" tests="69" skipped="0" failures="0" errors="0" timestamp="2017-11-30T14:44:29" hostname="MacBook-Pro-de-Guillermo.local" time="7.318">
+  <properties/>
+  <testcase name="getMaxSecondTest" classname="test.Collections.AVLTreeTest" time="0.006"/>
+  <testcase name="addIterativeTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="searchSecondTest" classname="test.Collections.AVLTreeTest" time="0.004"/>
+  <testcase name="joinTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="addTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="searchReturnTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="searchTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="getGreaterElementsTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="inOrderTraversalTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="updateHeightTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="rotationsTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="getBFTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="getDifferenceTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="postOrderTraversalTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="makeCopyTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="searchIterativeTest" classname="test.Collections.AVLTreeTest" time="0.005"/>
+  <testcase name="removeTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="getHeightTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="getNumberOfEementsGreaterThanTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="updateBF" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="toListTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="countTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="getMaxTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="getMaxSecondTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="addIterativeTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="searchSecondTest" classname="test.Collections.AVLTreeTest" time="0.002"/>
+  <testcase name="joinTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="addTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="searchReturnTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="searchTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="getGreaterElementsTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="inOrderTraversalTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="updateHeightTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="rotationsTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="getBFTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="getDifferenceTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="postOrderTraversalTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="makeCopyTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="searchIterativeTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="removeTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="getHeightTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="getNumberOfEementsGreaterThanTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="updateBF" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="toListTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="countTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="getMaxTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="getMaxSecondTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="addIterativeTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="searchSecondTest" classname="test.Collections.AVLTreeTest" time="0.007"/>
+  <testcase name="joinTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="addTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="searchReturnTest" classname="test.Collections.AVLTreeTest" time="0.003"/>
+  <testcase name="searchTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="getGreaterElementsTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="inOrderTraversalTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="updateHeightTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="rotationsTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="getBFTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="getDifferenceTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="postOrderTraversalTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="makeCopyTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="searchIterativeTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="removeTest" classname="test.Collections.AVLTreeTest" time="0.002"/>
+  <testcase name="getHeightTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="getNumberOfEementsGreaterThanTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="updateBF" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="toListTest" classname="test.Collections.AVLTreeTest" time="0.001"/>
+  <testcase name="countTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <testcase name="getMaxTest" classname="test.Collections.AVLTreeTest" time="0.0"/>
+  <system-out><![CDATA[------------- Inicializing the getMaxTest() method -------------
+
+Current working tree: b(1)a(0)--d(-1)c(0)---
+
+Positive testing starting... PASSED
+Negative testing starting... PASSED
+
+------------- Ending OK the getMaxTest() method -------------
+
+java.lang.IllegalArgumentException: The element you want to add was null. | DON'T WORRY IT'S A TEST
+------------- Inicializing the searchTest() method -------------
+
+Current working tree: b(1)a(0)--c(1)-f(0)--
+
+Positive testing starting... 
+The result of searching 'c' is.... true | assertEquals : true
+The result of searching 'b' is.... true | assertEquals : true
+The result of searching 'a' is.... true | assertEquals : true
+The result of searching 'f' is.... true | assertEquals : true
+
+Negative testing starting... 
+1srt - Part 
+The result of searching 'c' is.... true | assertNotSame : false
+The result of searching 'b' is.... true | assertNotSame : false
+The result of searching 'a' is.... true | assertNotSame : false
+The result of searching 'f' is.... true | assertNotSame : false
+
+2nd - Part 
+The result of searching 'g' is....  false | assertEquals : false
+The result of searching 'null' is.... false | assertEquals : false
+The result of searching ' ' is.... false | assertEquals : false
+The result of searching '0' is.... false | assertEquals : false
+The result of searching '/' is.... false | assertEquals : false
+The result of searching '@' is.... false | assertEquals : false
+
+------------- Ending OK the searchTest() method -------------
+
+d(0)b(0)a(0)--c(0)--g(1)-i(0)--
+b(0)a(0)--c(0)--
+java.lang.IllegalArgumentException: The element you want to add was null. | DON'T WORRY IT'S A TEST
+------------- Inicializing the searchReturnTest() method -------------
+
+Current working tree: b(1)a(0)--c(1)-f(0)--
+
+Positive testing starting... PASSED
+Negative testing starting... PASSED
+Possitive and negative tests... PASSED
+
+------------- Ending OK the searchReturnTest() method -------------
+
+java.lang.IllegalStateException: The current tree is empty.
+d(0)b(0)a(0)--c(0)--h(0)g(0)--i(0)--
+b(0)a(0)--c(0)--
+d(0)
+d(0)a(1)-c(0)--h(0)g(0)--i(0)--
+java.lang.IllegalArgumentException: The provided element is not in the tree.
+java.lang.IllegalArgumentException: The provided element is not in the tree.
+java.lang.IllegalArgumentException: The provided element is not in the tree.
+java.lang.IllegalStateException: The current tree is empty.
+java.lang.IllegalStateException: The current tree is empty.
+[b, a, c]
+------------- Inicializing the getMaxTest() method -------------
+
+Current working tree: b(1)a(0)--d(-1)c(0)---
+
+Positive testing starting... PASSED
+Negative testing starting... PASSED
+
+------------- Ending OK the getMaxTest() method -------------
+
+java.lang.IllegalArgumentException: The element you want to add was null. | DON'T WORRY IT'S A TEST
+------------- Inicializing the searchTest() method -------------
+
+Current working tree: b(1)a(0)--c(1)-f(0)--
+
+Positive testing starting... 
+The result of searching 'c' is.... true | assertEquals : true
+The result of searching 'b' is.... true | assertEquals : true
+The result of searching 'a' is.... true | assertEquals : true
+The result of searching 'f' is.... true | assertEquals : true
+
+Negative testing starting... 
+1srt - Part 
+The result of searching 'c' is.... true | assertNotSame : false
+The result of searching 'b' is.... true | assertNotSame : false
+The result of searching 'a' is.... true | assertNotSame : false
+The result of searching 'f' is.... true | assertNotSame : false
+
+2nd - Part 
+The result of searching 'g' is....  false | assertEquals : false
+The result of searching 'null' is.... false | assertEquals : false
+The result of searching ' ' is.... false | assertEquals : false
+The result of searching '0' is.... false | assertEquals : false
+The result of searching '/' is.... false | assertEquals : false
+The result of searching '@' is.... false | assertEquals : false
+
+------------- Ending OK the searchTest() method -------------
+
+d(0)b(0)a(0)--c(0)--g(1)-i(0)--
+b(0)a(0)--c(0)--
+java.lang.IllegalArgumentException: The element you want to add was null. | DON'T WORRY IT'S A TEST
+------------- Inicializing the searchReturnTest() method -------------
+
+Current working tree: b(1)a(0)--c(1)-f(0)--
+
+Positive testing starting... PASSED
+Negative testing starting... PASSED
+Possitive and negative tests... PASSED
+
+------------- Ending OK the searchReturnTest() method -------------
+
+java.lang.IllegalStateException: The current tree is empty.
+d(0)b(0)a(0)--c(0)--h(0)g(0)--i(0)--
+b(0)a(0)--c(0)--
+d(0)
+d(0)a(1)-c(0)--h(0)g(0)--i(0)--
+java.lang.IllegalArgumentException: The provided element is not in the tree.
+java.lang.IllegalArgumentException: The provided element is not in the tree.
+java.lang.IllegalArgumentException: The provided element is not in the tree.
+java.lang.IllegalStateException: The current tree is empty.
+java.lang.IllegalStateException: The current tree is empty.
+[b, a, c]
+------------- Inicializing the getMaxTest() method -------------
+
+Current working tree: b(1)a(0)--d(-1)c(0)---
+
+Positive testing starting... PASSED
+Negative testing starting... PASSED
+
+------------- Ending OK the getMaxTest() method -------------
+
+java.lang.IllegalArgumentException: The element you want to add was null. | DON'T WORRY IT'S A TEST
+------------- Inicializing the searchTest() method -------------
+
+Current working tree: b(1)a(0)--c(1)-f(0)--
+
+Positive testing starting... 
+The result of searching 'c' is.... true | assertEquals : true
+The result of searching 'b' is.... true | assertEquals : true
+The result of searching 'a' is.... true | assertEquals : true
+The result of searching 'f' is.... true | assertEquals : true
+
+Negative testing starting... 
+1srt - Part 
+The result of searching 'c' is.... true | assertNotSame : false
+The result of searching 'b' is.... true | assertNotSame : false
+The result of searching 'a' is.... true | assertNotSame : false
+The result of searching 'f' is.... true | assertNotSame : false
+
+2nd - Part 
+The result of searching 'g' is....  false | assertEquals : false
+The result of searching 'null' is.... false | assertEquals : false
+The result of searching ' ' is.... false | assertEquals : false
+The result of searching '0' is.... false | assertEquals : false
+The result of searching '/' is.... false | assertEquals : false
+The result of searching '@' is.... false | assertEquals : false
+
+------------- Ending OK the searchTest() method -------------
+
+d(0)b(0)a(0)--c(0)--g(1)-i(0)--
+b(0)a(0)--c(0)--
+java.lang.IllegalArgumentException: The element you want to add was null. | DON'T WORRY IT'S A TEST
+------------- Inicializing the searchReturnTest() method -------------
+
+Current working tree: b(1)a(0)--c(1)-f(0)--
+
+Positive testing starting... PASSED
+Negative testing starting... PASSED
+Possitive and negative tests... PASSED
+
+------------- Ending OK the searchReturnTest() method -------------
+
+java.lang.IllegalStateException: The current tree is empty.
+d(0)b(0)a(0)--c(0)--h(0)g(0)--i(0)--
+b(0)a(0)--c(0)--
+d(0)
+d(0)a(1)-c(0)--h(0)g(0)--i(0)--
+java.lang.IllegalArgumentException: The provided element is not in the tree.
+java.lang.IllegalArgumentException: The provided element is not in the tree.
+java.lang.IllegalArgumentException: The provided element is not in the tree.
+java.lang.IllegalStateException: The current tree is empty.
+java.lang.IllegalStateException: The current tree is empty.
+[b, a, c]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

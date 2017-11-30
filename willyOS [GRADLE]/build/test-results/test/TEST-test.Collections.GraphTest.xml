@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.Collections.GraphTest" tests="48" skipped="0" failures="0" errors="0" timestamp="2017-11-30T14:44:29" hostname="MacBook-Pro-de-Guillermo.local" time="7.259">
+  <properties/>
+  <testcase name="diametroTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="constructorTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="getNodeTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="gradoNodoTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="isStronglyConnectedTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="getNumberOfReturnNodesWithinCostTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="minGradoNodoTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="maxGradoNodoTest" classname="test.Collections.GraphTest" time="0.001"/>
+  <testcase name="removeEdgeTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="diametroDijkstraTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="addNodeTest" classname="test.Collections.GraphTest" time="0.001"/>
+  <testcase name="addEdgeAndExistsEdgeTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="FloydTest" classname="test.Collections.GraphTest" time="0.001"/>
+  <testcase name="traverseGraphTest" classname="test.Collections.GraphTest" time="0.001"/>
+  <testcase name="getPDTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="getDTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="diametroTest" classname="test.Collections.GraphTest" time="0.001"/>
+  <testcase name="constructorTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="getNodeTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="gradoNodoTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="isStronglyConnectedTest" classname="test.Collections.GraphTest" time="0.001"/>
+  <testcase name="getNumberOfReturnNodesWithinCostTest" classname="test.Collections.GraphTest" time="0.001"/>
+  <testcase name="minGradoNodoTest" classname="test.Collections.GraphTest" time="0.002"/>
+  <testcase name="maxGradoNodoTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="removeEdgeTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="diametroDijkstraTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="addNodeTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="addEdgeAndExistsEdgeTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="FloydTest" classname="test.Collections.GraphTest" time="0.006"/>
+  <testcase name="traverseGraphTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="getPDTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="getDTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="diametroTest" classname="test.Collections.GraphTest" time="0.001"/>
+  <testcase name="constructorTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="getNodeTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="gradoNodoTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="isStronglyConnectedTest" classname="test.Collections.GraphTest" time="0.001"/>
+  <testcase name="getNumberOfReturnNodesWithinCostTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="minGradoNodoTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="maxGradoNodoTest" classname="test.Collections.GraphTest" time="0.001"/>
+  <testcase name="removeEdgeTest" classname="test.Collections.GraphTest" time="0.002"/>
+  <testcase name="diametroDijkstraTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="addNodeTest" classname="test.Collections.GraphTest" time="0.002"/>
+  <testcase name="addEdgeAndExistsEdgeTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="FloydTest" classname="test.Collections.GraphTest" time="0.001"/>
+  <testcase name="traverseGraphTest" classname="test.Collections.GraphTest" time="0.001"/>
+  <testcase name="getPDTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <testcase name="getDTest" classname="test.Collections.GraphTest" time="0.0"/>
+  <system-out><![CDATA[java.lang.RuntimeException: Costs cannot be negative.
+java.lang.Exception: There's no edge between the selected nodes
+java.lang.Exception: There's no edge between the selected nodes
+java.lang.Exception: There's no edge between the selected nodes
+java.lang.Exception: Element is already in the graph.
+java.lang.Exception: Element is already in the graph.
+java.lang.Exception: Element is already in the graph.
+java.lang.Exception: You cannot add null elements to the graph.
+java.lang.Exception: You cannot add null elements to the graph.
+java.lang.Exception: You cannot add null elements to the graph.
+N1-
+N1-N2-N5-N4-N3-
+java.lang.Exception: The node cannot be added because there's no space.
+java.lang.Exception: The node cannot be added because there's no space.
+java.lang.Exception: The node cannot be added because there's no space.
+java.lang.RuntimeException: Costs cannot be negative.
+java.lang.Exception: There's no edge between the selected nodes
+java.lang.Exception: There's no edge between the selected nodes
+java.lang.Exception: There's no edge between the selected nodes
+java.lang.Exception: Element is already in the graph.
+java.lang.Exception: Element is already in the graph.
+java.lang.Exception: Element is already in the graph.
+java.lang.Exception: You cannot add null elements to the graph.
+java.lang.Exception: You cannot add null elements to the graph.
+java.lang.Exception: You cannot add null elements to the graph.
+N1-
+N1-N2-N5-N4-N3-
+java.lang.Exception: The node cannot be added because there's no space.
+java.lang.Exception: The node cannot be added because there's no space.
+java.lang.Exception: The node cannot be added because there's no space.
+java.lang.RuntimeException: Costs cannot be negative.
+java.lang.Exception: There's no edge between the selected nodes
+java.lang.Exception: There's no edge between the selected nodes
+java.lang.Exception: There's no edge between the selected nodes
+java.lang.Exception: Element is already in the graph.
+java.lang.Exception: Element is already in the graph.
+java.lang.Exception: Element is already in the graph.
+java.lang.Exception: You cannot add null elements to the graph.
+java.lang.Exception: You cannot add null elements to the graph.
+java.lang.Exception: You cannot add null elements to the graph.
+N1-
+N1-N2-N5-N4-N3-
+java.lang.Exception: The node cannot be added because there's no space.
+java.lang.Exception: The node cannot be added because there's no space.
+java.lang.Exception: The node cannot be added because there's no space.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

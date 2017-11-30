@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.UIColorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-30T14:44:40" hostname="MacBook-Pro-de-Guillermo.local" time="0.091">
+  <properties/>
+  <testcase name="alphaTest" classname="test.UIColorTest" time="0.09"/>
+  <testcase name="exceptionHandelingTest" classname="test.UIColorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

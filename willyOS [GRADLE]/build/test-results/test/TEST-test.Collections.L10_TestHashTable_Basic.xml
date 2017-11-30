@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.Collections.L10_TestHashTable_Basic" tests="21" skipped="0" failures="0" errors="0" timestamp="2017-11-30T14:44:33" hostname="MacBook-Pro-de-Guillermo.local" time="6.018">
+  <properties/>
+  <testcase name="testHashingFunctionIntegers" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testPrime" classname="test.Collections.L10_TestHashTable_Basic" time="0.001"/>
+  <testcase name="testHashingFunctionCharacters" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testHashTableAddSearchLP" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testHashTableAddSearchQP" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testHashTableRemoveLP" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testHashTableRemoveQP" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testHashingFunctionIntegers" classname="test.Collections.L10_TestHashTable_Basic" time="0.001"/>
+  <testcase name="testPrime" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testHashingFunctionCharacters" classname="test.Collections.L10_TestHashTable_Basic" time="0.001"/>
+  <testcase name="testHashTableAddSearchLP" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testHashTableAddSearchQP" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testHashTableRemoveLP" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testHashTableRemoveQP" classname="test.Collections.L10_TestHashTable_Basic" time="0.001"/>
+  <testcase name="testHashingFunctionIntegers" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testPrime" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testHashingFunctionCharacters" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testHashTableAddSearchLP" classname="test.Collections.L10_TestHashTable_Basic" time="0.001"/>
+  <testcase name="testHashTableAddSearchQP" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testHashTableRemoveLP" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <testcase name="testHashTableRemoveQP" classname="test.Collections.L10_TestHashTable_Basic" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

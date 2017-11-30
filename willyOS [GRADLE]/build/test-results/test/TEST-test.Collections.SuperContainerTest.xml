@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.Collections.SuperContainerTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2017-11-30T14:44:29" hostname="MacBook-Pro-de-Guillermo.local" time="7.262">
+  <properties/>
+  <testcase name="setKeyTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="setInfoTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="getInfoTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="setContainerTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="getKeyTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="toStringTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="getContainerTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="setKeyTest" classname="test.Collections.SuperContainerTest" time="0.001"/>
+  <testcase name="setInfoTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="getInfoTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="setContainerTest" classname="test.Collections.SuperContainerTest" time="0.001"/>
+  <testcase name="getKeyTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="toStringTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="getContainerTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="setKeyTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="setInfoTest" classname="test.Collections.SuperContainerTest" time="0.001"/>
+  <testcase name="getInfoTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="setContainerTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="getKeyTest" classname="test.Collections.SuperContainerTest" time="0.001"/>
+  <testcase name="toStringTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <testcase name="getContainerTest" classname="test.Collections.SuperContainerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

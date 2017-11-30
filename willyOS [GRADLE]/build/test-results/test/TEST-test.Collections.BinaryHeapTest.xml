@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.Collections.BinaryHeapTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-11-30T14:44:29" hostname="MacBook-Pro-de-Guillermo.local" time="7.317">
+  <properties/>
+  <testcase name="constructorTest" classname="test.Collections.BinaryHeapTest" time="0.0"/>
+  <testcase name="addTest" classname="test.Collections.BinaryHeapTest" time="0.0"/>
+  <testcase name="getMeinTest" classname="test.Collections.BinaryHeapTest" time="0.001"/>
+  <testcase name="constructorTest" classname="test.Collections.BinaryHeapTest" time="0.0"/>
+  <testcase name="addTest" classname="test.Collections.BinaryHeapTest" time="0.0"/>
+  <testcase name="getMeinTest" classname="test.Collections.BinaryHeapTest" time="0.0"/>
+  <testcase name="constructorTest" classname="test.Collections.BinaryHeapTest" time="0.001"/>
+  <testcase name="addTest" classname="test.Collections.BinaryHeapTest" time="0.001"/>
+  <testcase name="getMeinTest" classname="test.Collections.BinaryHeapTest" time="0.0"/>
+  <system-out><![CDATA[java.lang.IllegalArgumentException: You cannot add repeated elements to the heap.
+java.lang.IllegalStateException: The heap is empty.
+java.lang.IllegalArgumentException: You cannot add repeated elements to the heap.
+java.lang.IllegalStateException: The heap is empty.
+java.lang.IllegalArgumentException: You cannot add repeated elements to the heap.
+java.lang.IllegalStateException: The heap is empty.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

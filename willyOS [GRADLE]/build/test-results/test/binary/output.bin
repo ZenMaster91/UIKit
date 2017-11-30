@@ -1,0 +1,310 @@
+A------------- Inicializing the getMaxTest() method -------------
+
+-Current working tree: b(1)a(0)--d(-1)c(0)---
+
+$Positive testing starting... PASSED
+$Negative testing starting... PASSED
+
+>------------- Ending OK the getMaxTest() method -------------
+
+djava.lang.IllegalArgumentException: The element you want to add was null. | DON'T WORRY IT'S A TEST
+A------------- Inicializing the searchTest() method -------------
+
+,Current working tree: b(1)a(0)--c(1)-f(0)--
+
+Positive testing starting... 
+>The result of searching 'c' is.... true | assertEquals : true
+>The result of searching 'b' is.... true | assertEquals : true
+>The result of searching 'a' is.... true | assertEquals : true
+>The result of searching 'f' is.... true | assertEquals : true
+
+Negative testing starting... 
+1srt - Part 
+@The result of searching 'c' is.... true | assertNotSame : false
+@The result of searching 'b' is.... true | assertNotSame : false
+@The result of searching 'a' is.... true | assertNotSame : false
+@The result of searching 'f' is.... true | assertNotSame : false
+
+2nd - Part 
+AThe result of searching 'g' is....  false | assertEquals : false
+CThe result of searching 'null' is.... false | assertEquals : false
+@The result of searching ' ' is.... false | assertEquals : false
+@The result of searching '0' is.... false | assertEquals : false
+@The result of searching '/' is.... false | assertEquals : false
+@The result of searching '@' is.... false | assertEquals : false
+
+>------------- Ending OK the searchTest() method -------------
+
+ d(0)b(0)a(0)--c(0)--g(1)-i(0)--
+b(0)a(0)--c(0)--
+	djava.lang.IllegalArgumentException: The element you want to add was null. | DON'T WORRY IT'S A TEST
+
+G------------- Inicializing the searchReturnTest() method -------------
+
+
+
+,Current working tree: b(1)a(0)--c(1)-f(0)--
+
+
+
+$Positive testing starting... PASSED
+
+$Negative testing starting... PASSED
+
+'Possitive and negative tests... PASSED
+
+
+
+D------------- Ending OK the searchReturnTest() method -------------
+
+
+<java.lang.IllegalStateException: The current tree is empty.
+%d(0)b(0)a(0)--c(0)--h(0)g(0)--i(0)--
+b(0)a(0)--c(0)--
+d(0)
+ d(0)a(1)-c(0)--h(0)g(0)--i(0)--
+Mjava.lang.IllegalArgumentException: The provided element is not in the tree.
+Mjava.lang.IllegalArgumentException: The provided element is not in the tree.
+Mjava.lang.IllegalArgumentException: The provided element is not in the tree.
+<java.lang.IllegalStateException: The current tree is empty.
+<java.lang.IllegalStateException: The current tree is empty.
+
+[b, a, c]
+$#Tjava.lang.IllegalArgumentException: No repeated elements are allowed inside a tree.
+('Tjava.lang.IllegalArgumentException: No repeated elements are allowed inside a tree.
+,+Tjava.lang.IllegalArgumentException: No repeated elements are allowed inside a tree.
+76[a, d, f, z, g]
+<=Rjava.lang.IllegalArgumentException: You cannot add repeated elements to the heap.
+<>4java.lang.IllegalStateException: The heap is empty.
+[ZTNo repeated nodes are allowed java.lang.Exception: Element is already in the graph.
+[ZSStarting|arrival node does not exists java.lang.ArrayIndexOutOfBoundsException: -1
+`e6java.lang.RuntimeException: Costs cannot be negative.
+`h@java.lang.Exception: There's no edge between the selected nodes
+`h@java.lang.Exception: There's no edge between the selected nodes
+`h@java.lang.Exception: There's no edge between the selected nodes
+`j6java.lang.Exception: Element is already in the graph.
+`j6java.lang.Exception: Element is already in the graph.
+`j6java.lang.Exception: Element is already in the graph.
+`j@java.lang.Exception: You cannot add null elements to the graph.
+`j@java.lang.Exception: You cannot add null elements to the graph.
+`j@java.lang.Exception: You cannot add null elements to the graph.
+`lN1-
+`lN1-N2-N5-N4-N3-
+`mHjava.lang.Exception: The node cannot be added because there's no space.
+`mHjava.lang.Exception: The node cannot be added because there's no space.
+`mHjava.lang.Exception: The node cannot be added because there's no space.
+rA------------- Inicializing the getMaxTest() method -------------
+r
+r-Current working tree: b(1)a(0)--d(-1)c(0)---
+r
+r$Positive testing starting... PASSED
+r$Negative testing starting... PASSED
+r
+r>------------- Ending OK the getMaxTest() method -------------
+r
+sdjava.lang.IllegalArgumentException: The element you want to add was null. | DON'T WORRY IT'S A TEST
+tA------------- Inicializing the searchTest() method -------------
+t
+t,Current working tree: b(1)a(0)--c(1)-f(0)--
+t
+tPositive testing starting... 
+t>The result of searching 'c' is.... true | assertEquals : true
+t>The result of searching 'b' is.... true | assertEquals : true
+t>The result of searching 'a' is.... true | assertEquals : true
+t>The result of searching 'f' is.... true | assertEquals : true
+t
+tNegative testing starting... 
+t1srt - Part 
+t@The result of searching 'c' is.... true | assertNotSame : false
+t@The result of searching 'b' is.... true | assertNotSame : false
+t@The result of searching 'a' is.... true | assertNotSame : false
+t@The result of searching 'f' is.... true | assertNotSame : false
+t
+t2nd - Part 
+tAThe result of searching 'g' is....  false | assertEquals : false
+tCThe result of searching 'null' is.... false | assertEquals : false
+t@The result of searching ' ' is.... false | assertEquals : false
+t@The result of searching '0' is.... false | assertEquals : false
+t@The result of searching '/' is.... false | assertEquals : false
+t@The result of searching '@' is.... false | assertEquals : false
+t
+t>------------- Ending OK the searchTest() method -------------
+t
+u d(0)b(0)a(0)--c(0)--g(1)-i(0)--
+ub(0)a(0)--c(0)--
+vdjava.lang.IllegalArgumentException: The element you want to add was null. | DON'T WORRY IT'S A TEST
+wG------------- Inicializing the searchReturnTest() method -------------
+w
+w,Current working tree: b(1)a(0)--c(1)-f(0)--
+w
+w$Positive testing starting... PASSED
+w$Negative testing starting... PASSED
+w'Possitive and negative tests... PASSED
+w
+wD------------- Ending OK the searchReturnTest() method -------------
+w
+y<java.lang.IllegalStateException: The current tree is empty.
+{%d(0)b(0)a(0)--c(0)--h(0)g(0)--i(0)--
+|b(0)a(0)--c(0)--
+|d(0)
+‚ d(0)a(1)-c(0)--h(0)g(0)--i(0)--
+‚Mjava.lang.IllegalArgumentException: The provided element is not in the tree.
+‚Mjava.lang.IllegalArgumentException: The provided element is not in the tree.
+‚Mjava.lang.IllegalArgumentException: The provided element is not in the tree.
+„<java.lang.IllegalStateException: The current tree is empty.
+„<java.lang.IllegalStateException: The current tree is empty.
+†
+[b, a, c]
+7[a, d, f, z, g]
+<’Rjava.lang.IllegalArgumentException: You cannot add repeated elements to the heap.
+<“4java.lang.IllegalStateException: The heap is empty.
+[£TNo repeated nodes are allowed java.lang.Exception: Element is already in the graph.
+[£SStarting|arrival node does not exists java.lang.ArrayIndexOutOfBoundsException: -1
+`±6java.lang.RuntimeException: Costs cannot be negative.
+`´@java.lang.Exception: There's no edge between the selected nodes
+`´@java.lang.Exception: There's no edge between the selected nodes
+`´@java.lang.Exception: There's no edge between the selected nodes
+`¶6java.lang.Exception: Element is already in the graph.
+`¶6java.lang.Exception: Element is already in the graph.
+`¶6java.lang.Exception: Element is already in the graph.
+`¶@java.lang.Exception: You cannot add null elements to the graph.
+`¶@java.lang.Exception: You cannot add null elements to the graph.
+`¶@java.lang.Exception: You cannot add null elements to the graph.
+`¸N1-
+`¸N1-N2-N5-N4-N3-
+`¹Hjava.lang.Exception: The node cannot be added because there's no space.
+`¹Hjava.lang.Exception: The node cannot be added because there's no space.
+`¹Hjava.lang.Exception: The node cannot be added because there's no space.
+½ÀZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+½ÀZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+½ÀZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+½ÀZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+ÒØZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+ÒØZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+ÒØZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+ÒØZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+ÒïZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+ÒïZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+ÒïZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+ÒïZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+½þZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+½þZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+½þZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+½þZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+$ˆTjava.lang.IllegalArgumentException: No repeated elements are allowed inside a tree.
+(‹Tjava.lang.IllegalArgumentException: No repeated elements are allowed inside a tree.
+,ŽTjava.lang.IllegalArgumentException: No repeated elements are allowed inside a tree.
+”“Adding nodes.
+”“Checking nodes.
+¡A------------- Inicializing the getMaxTest() method -------------
+¡
+¡-Current working tree: b(1)a(0)--d(-1)c(0)---
+¡
+¡$Positive testing starting... PASSED
+¡$Negative testing starting... PASSED
+¡
+¡>------------- Ending OK the getMaxTest() method -------------
+¡
+¢djava.lang.IllegalArgumentException: The element you want to add was null. | DON'T WORRY IT'S A TEST
+£A------------- Inicializing the searchTest() method -------------
+£
+£,Current working tree: b(1)a(0)--c(1)-f(0)--
+£
+£Positive testing starting... 
+£>The result of searching 'c' is.... true | assertEquals : true
+£>The result of searching 'b' is.... true | assertEquals : true
+£>The result of searching 'a' is.... true | assertEquals : true
+£>The result of searching 'f' is.... true | assertEquals : true
+£
+£Negative testing starting... 
+£1srt - Part 
+£@The result of searching 'c' is.... true | assertNotSame : false
+£@The result of searching 'b' is.... true | assertNotSame : false
+£@The result of searching 'a' is.... true | assertNotSame : false
+£@The result of searching 'f' is.... true | assertNotSame : false
+£
+£2nd - Part 
+£AThe result of searching 'g' is....  false | assertEquals : false
+£CThe result of searching 'null' is.... false | assertEquals : false
+£@The result of searching ' ' is.... false | assertEquals : false
+£@The result of searching '0' is.... false | assertEquals : false
+£@The result of searching '/' is.... false | assertEquals : false
+£@The result of searching '@' is.... false | assertEquals : false
+£
+£>------------- Ending OK the searchTest() method -------------
+£
+¤ d(0)b(0)a(0)--c(0)--g(1)-i(0)--
+¤b(0)a(0)--c(0)--
+¥djava.lang.IllegalArgumentException: The element you want to add was null. | DON'T WORRY IT'S A TEST
+¦G------------- Inicializing the searchReturnTest() method -------------
+¦
+¦,Current working tree: b(1)a(0)--c(1)-f(0)--
+¦
+¦$Positive testing starting... PASSED
+¦$Negative testing starting... PASSED
+¦'Possitive and negative tests... PASSED
+¦
+¦D------------- Ending OK the searchReturnTest() method -------------
+¦
+¨<java.lang.IllegalStateException: The current tree is empty.
+ª%d(0)b(0)a(0)--c(0)--h(0)g(0)--i(0)--
+«b(0)a(0)--c(0)--
+«d(0)
+± d(0)a(1)-c(0)--h(0)g(0)--i(0)--
+±Mjava.lang.IllegalArgumentException: The provided element is not in the tree.
+±Mjava.lang.IllegalArgumentException: The provided element is not in the tree.
+±Mjava.lang.IllegalArgumentException: The provided element is not in the tree.
+³<java.lang.IllegalStateException: The current tree is empty.
+³<java.lang.IllegalStateException: The current tree is empty.
+µ
+[b, a, c]
+$½Tjava.lang.IllegalArgumentException: No repeated elements are allowed inside a tree.
+(ÀTjava.lang.IllegalArgumentException: No repeated elements are allowed inside a tree.
+,ÃTjava.lang.IllegalArgumentException: No repeated elements are allowed inside a tree.
+[âTNo repeated nodes are allowed java.lang.Exception: Element is already in the graph.
+[âSStarting|arrival node does not exists java.lang.ArrayIndexOutOfBoundsException: -1
+`ë6java.lang.RuntimeException: Costs cannot be negative.
+`î@java.lang.Exception: There's no edge between the selected nodes
+`î@java.lang.Exception: There's no edge between the selected nodes
+`î@java.lang.Exception: There's no edge between the selected nodes
+`ð6java.lang.Exception: Element is already in the graph.
+`ð6java.lang.Exception: Element is already in the graph.
+`ð6java.lang.Exception: Element is already in the graph.
+`ð@java.lang.Exception: You cannot add null elements to the graph.
+`ð@java.lang.Exception: You cannot add null elements to the graph.
+`ð@java.lang.Exception: You cannot add null elements to the graph.
+`òN1-
+`òN1-N2-N5-N4-N3-
+`óHjava.lang.Exception: The node cannot be added because there's no space.
+`óHjava.lang.Exception: The node cannot be added because there's no space.
+`óHjava.lang.Exception: The node cannot be added because there's no space.
+7ö[a, d, f, z, g]
+<ûRjava.lang.IllegalArgumentException: You cannot add repeated elements to the heap.
+<ü4java.lang.IllegalStateException: The heap is empty.
+½€ZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+½€ZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+½€ZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+½€ZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+Ò•ZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+Ò•ZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+Ò•ZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+Ò•ZFROM TESTING: java.lang.IllegalArgumentException: There are not any previus prime number.
+¢¡true
+¤£01, ene., 2016
+¦¥--- MY MENU ---
+¦¥( 0 )  first item
+¦¥( 1 )  new item
+¦¥( 2 )  new item
+¦¥( 3 )  new item
+¦¥( 4 )  new item
+¦¥( 5 )  new item
+¦¥( 6 )  new item
+¦¥( 7 )  new item
+¦¥( 8 )  new item
+¦¥( 9 )  new item
+¦¥( 10 )  new item
+¦¥Executing the newaction...
+¦§first item
+¯®1280.0 x 800.0
+¯®1280.0 x 800.0
+¯®113

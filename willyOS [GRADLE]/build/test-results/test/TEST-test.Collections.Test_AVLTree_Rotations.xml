@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.Collections.Test_AVLTree_Rotations" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-11-30T14:44:29" hostname="MacBook-Pro-de-Guillermo.local" time="7.287">
+  <properties/>
+  <testcase name="testSingleRotation" classname="test.Collections.Test_AVLTree_Rotations" time="0.001"/>
+  <testcase name="testRemoval" classname="test.Collections.Test_AVLTree_Rotations" time="0.005"/>
+  <testcase name="testDoubleRotation" classname="test.Collections.Test_AVLTree_Rotations" time="0.0"/>
+  <testcase name="testSingleRotation" classname="test.Collections.Test_AVLTree_Rotations" time="0.0"/>
+  <testcase name="testRemoval" classname="test.Collections.Test_AVLTree_Rotations" time="0.001"/>
+  <testcase name="testDoubleRotation" classname="test.Collections.Test_AVLTree_Rotations" time="0.0"/>
+  <testcase name="testSingleRotation" classname="test.Collections.Test_AVLTree_Rotations" time="0.0"/>
+  <testcase name="testRemoval" classname="test.Collections.Test_AVLTree_Rotations" time="0.0"/>
+  <testcase name="testDoubleRotation" classname="test.Collections.Test_AVLTree_Rotations" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.Collections.BinaryHeapMartinTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2017-11-30T14:44:29" hostname="MacBook-Pro-de-Guillermo.local" time="7.319">
+  <properties/>
+  <testcase name="fullMartinTest" classname="test.Collections.BinaryHeapMartinTest" time="0.001"/>
+  <testcase name="addTest" classname="test.Collections.BinaryHeapMartinTest" time="0.001"/>
+  <testcase name="secondConstructorTest" classname="test.Collections.BinaryHeapMartinTest" time="0.0"/>
+  <testcase name="removeTest" classname="test.Collections.BinaryHeapMartinTest" time="0.0"/>
+  <testcase name="fullMartinTest" classname="test.Collections.BinaryHeapMartinTest" time="0.001"/>
+  <testcase name="addTest" classname="test.Collections.BinaryHeapMartinTest" time="0.0"/>
+  <testcase name="secondConstructorTest" classname="test.Collections.BinaryHeapMartinTest" time="0.0"/>
+  <testcase name="removeTest" classname="test.Collections.BinaryHeapMartinTest" time="0.0"/>
+  <testcase name="fullMartinTest" classname="test.Collections.BinaryHeapMartinTest" time="0.004"/>
+  <testcase name="addTest" classname="test.Collections.BinaryHeapMartinTest" time="0.0"/>
+  <testcase name="secondConstructorTest" classname="test.Collections.BinaryHeapMartinTest" time="0.0"/>
+  <testcase name="removeTest" classname="test.Collections.BinaryHeapMartinTest" time="0.0"/>
+  <system-out><![CDATA[[a, d, f, z, g]
+[a, d, f, z, g]
+[a, d, f, z, g]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

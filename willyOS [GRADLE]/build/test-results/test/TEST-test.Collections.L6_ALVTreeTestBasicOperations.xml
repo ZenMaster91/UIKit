@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.Collections.L6_ALVTreeTestBasicOperations" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-11-30T14:44:29" hostname="MacBook-Pro-de-Guillermo.local" time="7.296">
+  <properties/>
+  <testcase name="testAdd" classname="test.Collections.L6_ALVTreeTestBasicOperations" time="0.001"/>
+  <testcase name="testGetMax" classname="test.Collections.L6_ALVTreeTestBasicOperations" time="0.0"/>
+  <testcase name="testSearch" classname="test.Collections.L6_ALVTreeTestBasicOperations" time="0.0"/>
+  <testcase name="testAdd" classname="test.Collections.L6_ALVTreeTestBasicOperations" time="0.0"/>
+  <testcase name="testGetMax" classname="test.Collections.L6_ALVTreeTestBasicOperations" time="0.0"/>
+  <testcase name="testSearch" classname="test.Collections.L6_ALVTreeTestBasicOperations" time="0.0"/>
+  <testcase name="testAdd" classname="test.Collections.L6_ALVTreeTestBasicOperations" time="0.002"/>
+  <testcase name="testGetMax" classname="test.Collections.L6_ALVTreeTestBasicOperations" time="0.0"/>
+  <testcase name="testSearch" classname="test.Collections.L6_ALVTreeTestBasicOperations" time="0.0"/>
+  <system-out><![CDATA[java.lang.IllegalArgumentException: No repeated elements are allowed inside a tree.
+java.lang.IllegalArgumentException: No repeated elements are allowed inside a tree.
+java.lang.IllegalArgumentException: No repeated elements are allowed inside a tree.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

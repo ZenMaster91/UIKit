@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.NSMenuTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-30T14:44:39" hostname="MacBook-Pro-de-Guillermo.local" time="0.01">
+  <properties/>
+  <testcase name="menuTest" classname="test.NSMenuTest" time="0.009"/>
+  <testcase name="menuItemTest" classname="test.NSMenuTest" time="0.001"/>
+  <system-out><![CDATA[--- MY MENU ---
+( 0 )  first item
+( 1 )  new item
+( 2 )  new item
+( 3 )  new item
+( 4 )  new item
+( 5 )  new item
+( 6 )  new item
+( 7 )  new item
+( 8 )  new item
+( 9 )  new item
+( 10 )  new item
+Executing the newaction...
+first item
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
