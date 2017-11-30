@@ -11,7 +11,6 @@ import Foundation.Collections.GraphNode;
  * @author Guillermo Facundo Colunga
  * @version 2.1
  */
-@SuppressWarnings("deprecation")
 public class GraphMartinTest {
 
     @Test
